@@ -1,0 +1,16 @@
+.my-swiper{
+    height: 400rpx;
+}
+.swiper-item{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 24rpx;
+}
+.item{
+    width: 25%;
+}
+.item image{
+    width: 60%;
+}
+

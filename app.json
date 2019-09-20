@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/index/index",
+    "pages/collect/collect",
+    "pages/logs/logs",
+    "pages/my/my",
+    "pages/shopDetail/shopDetail",
+    "components/swiper",
+    "components/home-swiper",
+    "components/home-swiper/home-swiper"
+  ],
+  "usingComponents": {
+    "van-rate": "vant-weapp/rate",
+    "van-button": "vant-weapp/button"
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "imgs/home-1.png",
+        "selectedIconPath": "imgs/home-2.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/collect/collect",
+        "iconPath": "imgs/collect-1.png",
+        "selectedIconPath": "imgs/collect-2.png",
+        "text": "收藏"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "imgs/my-1.png",
+        "selectedIconPath": "imgs/my-2.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

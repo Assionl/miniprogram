@@ -1,0 +1,9 @@
+<!-- pages/home/home.wxml -->
+<import src="../../template/shopList.wxml"></import>
+<view class="home">
+<!-- 把swiperData 传给组件里面名字叫做swiperData的属性 -->
+    <home-swiper swiper-data="{{swiperData}}"/>
+    <view class="title">商铺列表</view>
+    <!-- 注意这个名字要一致 -->
+    <template is="shopList" data="{{subjects,baseUrl}}"></template>
+</view>

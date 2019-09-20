@@ -1,0 +1,16 @@
+<!--components/swiper.wxml-->
+<swiper class="my-swiper" indicator-dots="{{true}}" autoplay="{{true}}" interval="{{5000}}" duration="{{1000}}">
+        <block wx:for="{{swiperData}}" wx:key="{{index}}" wx:for-item="subArray">
+            <swiper-item>
+            <view class="swiper-item">
+                <view class="item" wx:for="{{subArray}}" wx:key="{{id}}">
+                <navigator>
+                    <image class="" src="{{baseImgUrl+item.image_url}}" mode="widthFix"/>
+                </navigator>                    
+                <text class="">{{item.title}}</text>
+                </view>
+            </view>
+              
+            </swiper-item>
+        </block>
+</swiper>

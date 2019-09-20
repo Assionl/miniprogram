@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view>
+  <navigator url="/pages/home/home" open-type="switchTab">
+    跳转到首页
+  </navigator>
+</view>
